@@ -33,8 +33,6 @@ pdfs:
 ---
 ::    
 
-:ppw-checklist-result-static{path="/data/check/paf_1201b.json"}
-
 ## Anomalie : Dossier de piste d'audit fiable incomplet : il manque le bon de livraison
 
 L'institut de beauté CYBEAU (client) commande des produits cosmétiques à THOLGA (fournisseur), société d'algues marines.
@@ -52,7 +50,7 @@ Zina vérifie sous paxpar que tout est conforme (avant l'envoi de la facture) :
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1201c.pdf"
+  - url: "/data/pdf/tholga_FA-1201c.pdf"
     check_result: "/data/check/_cl_paf_1201c"           
     name: "Facture Tholga_FA1201c"
 ---
@@ -88,7 +86,7 @@ Usurpation d'identité détectée.
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1201d.pdf"  
+  - url: "/data/pdf/tholga_FA-1201d.pdf"  
     check_result: "/data/check/_cl_paf_1201d"    
     name: "Facture Tholga_FA1201d"
 ---
@@ -109,7 +107,7 @@ Peggy, à réception du dossier PAF, vérifie sa conformité avant paiement.  pa
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1202b.pdf"  
+  - url: "/data/pdf/tholga_FA-1202b.pdf"  
     check_result: "/data/check/_cl_paf_1202b"    
     name: "Facture Tholga_FA1202b"
 ---
@@ -131,8 +129,8 @@ Zina créé le dossier PAF comprenant : FA, BC et BL. Elle a un doute sur la con
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1203b.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1203b"    
+  - url: "/data/pdf/tholga_FA-1203b.pdf"  
+    check_result: "/data/check/_cl_paf_1203b"    
     name: "Facture Tholga_FA1203b"
 ---
 ::
@@ -154,8 +152,8 @@ Peggy, à réception du PAF, vérifie sa conformité avant de payer la facture. 
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1201e.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1201e"   
+  - url: "/data/pdf/tholga_FA-1201e.pdf"  
+    check_result: "/data/check/_cl_paf_1201e"   
     name: "Facture Tholga_FA1201e"
 ---
 ::
@@ -174,8 +172,8 @@ paxpar lui indique que la feuille d'analyses laboratoire est bien jointe.
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1301.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1301"    
+  - url: "/data/pdf/tholga_FA-1301.pdf"  
+    check_result: "/data/check/_cl_paf_1301"    
     name: "Facture Tholga_FA1301"
 ---
 ::
@@ -192,8 +190,8 @@ paxpar lui indique que la photo est bien jointe.
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1302.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1302"   
+  - url: "/data/pdf/tholga_FA-1302.pdf"  
+    check_result: "/data/check/_cl_paf_1302"   
     name: "Facture Tholga_FA1302"
 ---
 ::
@@ -211,8 +209,8 @@ paxpar lui indique que la feuille d'analyses est bien jointe (métadonnées cons
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1303.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1303"    
+  - url: "/data/pdf/tholga_FA-1303.pdf"  
+    check_result: "/data/check/_cl_paf_1303"    
     name: "Facture Tholga_FA1303"
 ---
 ::
@@ -230,8 +228,8 @@ paxpar lui indique que la facture est correcte car le produit DERMA n'a pas ét�
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1304.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1304"     
+  - url: "/data/pdf/tholga_FA-1304.pdf"  
+    check_result: "/data/check/_cl_paf_1304"     
     name: "Facture Tholga_FA1304"
 ---
 ::
@@ -248,8 +246,8 @@ paxpar lui indique que la feuille d'analyses du produit DERMA est manquante.
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1301a.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1301a"    
+  - url: "/data/pdf/tholga_FA-1301a.pdf"  
+    check_result: "/data/check/_cl_paf_1301a"    
     name: "Facture Tholga_FA1301a"
 ---
 ::
@@ -269,8 +267,8 @@ Paxpar indique également que la signature de Zina ne contient pas sa clé publi
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1303b.pdf"  
-    check_result: "/blog/2023/06/_cl_paf_1303b"     
+  - url: "/data/pdf/tholga_FA-1303b.pdf"  
+    check_result: "/data/check/_cl_paf_1303b"     
     name: "Facture Tholga_FA1303b"
 ---
 ::
