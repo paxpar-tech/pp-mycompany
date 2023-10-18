@@ -28,12 +28,12 @@ Peggy, à réception du PAF, vérifie sa conformité avant de payer la facture.
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1201b.pdf"  
-    check_result: "/data/check/paf_1201b.yaml"    
+    check_result: "/data/check/paf_1201b.json"    
     name: "Facture Tholga_FA1201b"
 ---
 ::    
 
-:ppw-checklist-result-static{path="/data/check/paf_1201b.yaml"}
+:ppw-checklist-result-static{path="/data/check/paf_1201b.json"}
 
 ## Anomalie : Dossier de piste d'audit fiable incomplet : il manque le bon de livraison
 
