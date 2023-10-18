@@ -3,7 +3,7 @@ model: verif_scenario
 lang: fr
 image: https://media.paxpar.tech/1377-invoice_small.svg
 title: Confiance en votre PAF
-description: Avoir la garantie que votre dossier PAF est complet et conforme à la réglementation XXX-  📖 
+description: Avoir la garantie que votre dossier PAF est complet et conforme à la réglementation-  📖 
 createdAt: 2023-06-20
 aside: false
 ---
