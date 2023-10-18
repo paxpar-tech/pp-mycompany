@@ -108,7 +108,7 @@ Peggy, à réception du dossier PAF, vérifie sa conformité avant paiement.  pa
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1202b.pdf"  
-    check_result: "/data/check/_cl_paf_1202b"    
+    check_result: "/data/check/_cl_paf_1202b.yaml"    
     name: "Facture Tholga_FA1202b"
 ---
 ::
@@ -130,7 +130,7 @@ Zina créé le dossier PAF comprenant : FA, BC et BL. Elle a un doute sur la con
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1203b.pdf"  
-    check_result: "/data/check/_cl_paf_1203b"    
+    check_result: "/data/check/_cl_paf_1203b.yaml"    
     name: "Facture Tholga_FA1203b"
 ---
 ::
@@ -153,7 +153,7 @@ Peggy, à réception du PAF, vérifie sa conformité avant de payer la facture. 
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1201e.pdf"  
-    check_result: "/data/check/_cl_paf_1201e"   
+    check_result: "/data/check/_cl_paf_1201e.yaml"   
     name: "Facture Tholga_FA1201e"
 ---
 ::
@@ -173,7 +173,7 @@ paxpar lui indique que la feuille d'analyses laboratoire est bien jointe.
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1301.pdf"  
-    check_result: "/data/check/_cl_paf_1301"    
+    check_result: "/data/check/_cl_paf_1301.yaml"    
     name: "Facture Tholga_FA1301"
 ---
 ::
@@ -191,7 +191,7 @@ paxpar lui indique que la photo est bien jointe.
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1302.pdf"  
-    check_result: "/data/check/_cl_paf_1302"   
+    check_result: "/data/check/_cl_paf_1302.yaml"   
     name: "Facture Tholga_FA1302"
 ---
 ::
@@ -210,7 +210,7 @@ paxpar lui indique que la feuille d'analyses est bien jointe (métadonnées cons
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1303.pdf"  
-    check_result: "/data/check/_cl_paf_1303"    
+    check_result: "/data/check/_cl_paf_1303.yaml"    
     name: "Facture Tholga_FA1303"
 ---
 ::
@@ -229,7 +229,7 @@ paxpar lui indique que la facture est correcte car le produit DERMA n'a pas ét�
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1304.pdf"  
-    check_result: "/data/check/_cl_paf_1304"     
+    check_result: "/data/check/_cl_paf_1304.yaml"     
     name: "Facture Tholga_FA1304"
 ---
 ::
@@ -247,7 +247,7 @@ paxpar lui indique que la feuille d'analyses du produit DERMA est manquante.
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1301a.pdf"  
-    check_result: "/data/check/_cl_paf_1301a"    
+    check_result: "/data/check/_cl_paf_1301a.yaml"    
     name: "Facture Tholga_FA1301a"
 ---
 ::
@@ -268,7 +268,7 @@ Paxpar indique également que la signature de Zina ne contient pas sa clé publi
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1303b.pdf"  
-    check_result: "/data/check/_cl_paf_1303b"     
+    check_result: "/data/check/_cl_paf_1303b.yaml"     
     name: "Facture Tholga_FA1303b"
 ---
 ::
