@@ -51,7 +51,7 @@ Zina vérifie sous paxpar que tout est conforme (avant l'envoi de la facture) :
 ---
 pdfs:
   - url: "/data/pdf/tholga_FA-1201c.pdf"
-    check_result: "/data/check/_cl_paf_1201c"           
+    check_result: "/data/check/_cl_paf_1201c.yaml"           
     name: "Facture Tholga_FA1201c"
 ---
 ::
@@ -86,8 +86,8 @@ Usurpation d'identité détectée.
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/data/pdf/tholga_FA-1201d.pdf"  
-    check_result: "/data/check/_cl_paf_1201d"    
+  - url: "/data/pdf/tholga_FA-1201d_ys.pdf"  
+    check_result: "/data/check/_cl_paf_1201d.yaml"    
     name: "Facture Tholga_FA1201d"
 ---
 ::
