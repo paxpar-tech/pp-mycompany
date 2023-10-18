@@ -9,4 +9,4 @@ Dans ce document:
 cf pp-ref-common/custom/secure/mes_valise_secure/valise_mission_eu/
 
 
-:ppw-pdfview{url="/data/pdf/val_mis_eu.pdf"}
+:ppw-pdfview{url="/data/pdf/tholga_FA-1201b.pdf"}
