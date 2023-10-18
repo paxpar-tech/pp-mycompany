@@ -1,0 +1,101 @@
+{
+    "id": "common.checklists._bootstrap",
+    "name": null,
+    "desc": null,
+    "icon": null,
+    "status": "OK",
+    "module": null,
+    "factice": false,
+    "children": [
+        {
+            "id": "upload",
+            "name": "Fichier dos_ent_alcove.pdf déposé",
+            "desc": "",
+            "icon": "mdi:file-arrow-up-down-outline",
+            "status": "OK",
+            "module": "ref.frozen._sys.upload",
+            "factice": false,
+            "children": [],
+            "props": {
+                "files": [
+                    {
+                        "filename": "dos_ent_alcove.pdf",
+                        "file": {},
+                        "size": 2353632,
+                        "headers": {
+                            "content-disposition": "form-data; name=\"file\"; filename=\"dos_ent_alcove.pdf\"",
+                            "content-type": "application/pdf"
+                        }
+                    }
+                ],
+                "file": {
+                    "filename": "dos_ent_alcove.pdf",
+                    "file": {},
+                    "size": 2353632,
+                    "headers": {
+                        "content-disposition": "form-data; name=\"file\"; filename=\"dos_ent_alcove.pdf\"",
+                        "content-type": "application/pdf"
+                    }
+                },
+                "filename": "dos_ent_alcove.pdf"
+            },
+            "content": "",
+            "options": null,
+            "view": null,
+            "done": true,
+            "root": null,
+            "assert": null,
+            "props_": {},
+            "triples": []
+        },
+        {
+            "id": "pdf",
+            "name": "Analyse format PDF",
+            "desc": "",
+            "icon": "mdi-file-pdf-box",
+            "status": "OK",
+            "module": "ref.frozen._sys.pdf_info",
+            "factice": false,
+            "children": [
+                {
+                    "id": "9a2dc31a-69d8-11ee-8ee2-4a56cbac7b8e",
+                    "name": "2 Mo, 3 pages",
+                    "desc": null,
+                    "icon": "mdi:file-pdf-box",
+                    "status": "INFO",
+                    "module": null,
+                    "factice": false,
+                    "children": [],
+                    "props": {},
+                    "content": "",
+                    "options": null,
+                    "view": null,
+                    "done": true,
+                    "root": null,
+                    "assert": null,
+                    "props_": {},
+                    "triples": []
+                },
+                {
+                    "id": "9a2dd0e4-69d8-11ee-8ee2-4a56cbac7b8e",
+                    "name": "Format PDF/A",
+                    "desc": null,
+                    "icon": "mdi:file-pdf-box",
+                    "status": "INFO",
+                    "module": null,
+                    "factice": true,
+                    "children": [],
+                    "props": {},
+                    "content": "",
+                    "options": null,
+                    "view": null,
+                    "done": true,
+                    "root": null,
+                    "assert": null,
+                    "props_": {},
+                    "triples": []
+                },
+            ]
+        }
+    ]
+}
