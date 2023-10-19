@@ -9,7 +9,31 @@ aside: false
 ---
 
 # PAF
-https://media.paxpar.tech/PAF_cas-u3-768x456.png
+
+![](https://media.paxpar.tech/PAF_cas-u3-768x456.png)
+
+## Synthèse
+
+::ppw-showcase-check
+---
+pdfs:
+  - url: "/data/pdf/tholga_FA-1201b.pdf"  
+    check_result: "/data/check/paf_1201b.json"    
+    name: "Facture Tholga_FA1201b"
+  - url: "/data/pdf/tholga_FA-1201c.pdf"
+    check_result: "/data/check/_cl_paf_1201c.yaml"           
+    name: "Facture Tholga_FA1201c"
+  - url: "/data/pdf/tholga_FA-1201d_ys.pdf"  
+    check_result: "/data/check/_cl_paf_1201d.yaml"    
+    name: "Facture Tholga_FA1201d"
+  - url: "/data/pdf/tholga_FA-1202b.pdf"  
+    check_result: "/data/check/_cl_paf_1202b.yaml"    
+    name: "Facture Tholga_FA1202b"
+  - url: "/data/pdf/tholga_FA-1203b.pdf"  
+    check_result: "/data/check/_cl_paf_1203b.yaml"    
+    name: "Facture Tholga_FA1203b"
+---
+::    
 
 ## Contexte - Pas d'anomalie
 
@@ -270,5 +294,42 @@ pdfs:
   - url: "/data/pdf/tholga_FA-1303b.pdf"  
     check_result: "/data/check/_cl_paf_1303b.yaml"     
     name: "Facture Tholga_FA1303b"
+---
+::
+
+## Feuille d'analyses conforme
+
+L'institut de beauté CYBEAU (client) commande des produits cosmétiques à THOLGA (fournisseur), société d'algues marines.
+Le service Qualité de Cybeau  exige que la feuille d'analyses laboratoire pour les produits de la gamme DERMA soit jointe à la facture.
+Zina Doucet (ZD) - responsable achat de THOLGA - valide la facture en signant et s'assure que la feuille d'analyses laboratoire soit bien jointe à la facture.
+
+Peggy, à réception de la facture, vérifie sa conformité vis à vis du service Qualité avant de payer la facture.
+paxpar lui indique que la feuille d'analyses laboratoire est bien jointe et que les analyses sont conformes aux spécifications définies.
+
+::ppw-showcase-check
+---
+pdfs:
+  - url: "/documents/tholga_FA-1401.pdf"  
+    check_result: "/blog/2023/06/_cl_paf_1201c"     
+    name: "Facture Tholga_FA1401"
+---
+::
+
+## Feuille d'analyses non conforme et Zina signe sans s'en rendre compte
+
+L'institut de beauté CYBEAU (client) commande des produits cosmétiques à THOLGA (fournisseur), société d'algues marines.
+Le service Qualité de Cybeau  exige que la feuille d'analyses laboratoire pour les produits de la gamme DERMA soit jointe à la facture.
+Zina Doucet (ZD) - responsable achat de THOLGA - valide la facture en signant et s'assure que la feuille d'analyses laboratoire soit bien jointe à la facture.
+
+Peggy, à réception de la facture, vérifie sa conformité vis à vis du service Qualité avant de payer la facture.
+paxpar lui indique que la feuille d'analyses laboratoire est bien jointe
+MAIS que certaines valeurs renseignées dans les analyses ne sont PAS conformes aux spécifications définies.
+
+::ppw-showcase-check
+---
+pdfs:
+  - url: "/documents/tholga_FA-1401b.pdf"  
+    check_result: "/blog/2023/06/_cl_paf_1201c"     
+    name: "Facture Tholga_FA1401b"
 ---
 ::
