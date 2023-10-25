@@ -309,7 +309,7 @@ paxpar lui indique que la feuille d'analyses laboratoire est bien jointe et que 
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1401.pdf"  
+  - url: "/data/pdf/tholga_FA-1401.pdf"  
     check_result: "/blog/2023/06/_cl_paf_1201c"     
     name: "Facture Tholga_FA1401"
 ---
@@ -328,7 +328,7 @@ MAIS que certaines valeurs renseignées dans les analyses ne sont PAS conformes 
 ::ppw-showcase-check
 ---
 pdfs:
-  - url: "/documents/tholga_FA-1401b.pdf"  
+  - url: "/data/pdf/tholga_FA-1401b.pdf"  
     check_result: "/blog/2023/06/_cl_paf_1201c"     
     name: "Facture Tholga_FA1401b"
 ---
