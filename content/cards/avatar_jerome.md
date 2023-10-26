@@ -1,4 +1,3 @@
-
 ---
 title: Carte avatar_jerome
 ---
