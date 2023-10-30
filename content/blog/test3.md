@@ -145,7 +145,7 @@ pdfs:
     check_result: "/data/check/_cl_paf_1201e.yaml"
     name: "PAF_1201e"
     conversation:
-        - valerie: "La checklist indique un statut rouge. La référence du produit xx n'est pas la même sur tous les documents."
+        - valerie: "La checklist indique un statut rouge. La référence du produit DERMA n'est pas la même sur tous les documents."
 ---
 ::
 
@@ -163,7 +163,7 @@ pdfs:
     check_result: "/data/check/_cl_paf_1202b.yaml"
     name: "PAF_1202b"
     conversation:
-        - valerie: "La checklist indique immédiatement les points non conformes en mettant un statut rouge. Dans ce cas là, mycompany indique que le produit xx n'a pas le même prix sur les différents documents." 
+        - valerie: "La checklist indique immédiatement les points non conformes en mettant un statut rouge. Dans ce cas là, mycompany indique que le produit DERMA n'a pas le même prix sur les différents documents." 
   - url: "/data/pdf/tholga_FA-1203b.pdf"
     check_result: "/data/check/_cl_paf_1203b.yaml"
     name: "PAF_1203b"
