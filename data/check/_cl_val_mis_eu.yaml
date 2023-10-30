@@ -1,0 +1,141 @@
+# yaml-language-server: $schema=https://paxpar.gitlab.io/schemas/checklist-2.0.schema.json
+$schema: https://paxpar.tech/schema/mycheck/default/0
+name: Intervention Servier
+desc: Liste de vérification appliquée lors de la saisie d'un ordre d'intervention
+owner:
+  signature_pubkey: default
+  signature: xxxx
+  email: info@paxpar.tech
+#filter2:
+#  - filename: "*OrdreMission*.pdf"
+filter2:
+  - metadata:
+      $schema: https://paxpar.tech/schema/common.custom.secure.mes_valise_secure.base.craftform/1
+gallery:
+  published: true
+steps:
+   # - -- == -- - -- == -- - -- == -- - -- == -- - -- == -- - -- == -- - -- == -
+  - id: valeu
+    title: Conformité valise EU
+    icon: mdi-file-pdf-box
+    status: OK
+    children:
+    - id: cdcdoc
+      title: Cahier des charges 
+      icon: mdi-file-pdf-box  
+      status: OK 
+      children:   
+      - id: sous step
+        name: Signature et identité valide du client
+        icon: mdi-account
+        status: OK
+      - id: date        
+        name: "date le 05/08/2022" 
+        icon: mdi-update
+        status: OK
+    - id: confEE
+      title: Conformité EE 
+      icon: mdi-file-pdf-box
+      status: OK
+      children:
+      - id: societe 1
+        name: "Nom Société : ALCOVE" 
+        icon: mdi-account
+        status: OK
+        children:
+        - id: adresse
+          name: "Adresse : 2 rue du Parc 75000 Paris" 
+          icon: mdi-domain
+          status: OK
+        - id: siret
+          name: "Siret: 233444555" 
+          icon: mdi-numeric
+          status: OK
+        - id: responsable_societe
+          name: "Chef d'entreprise: Isabelle LEPAGE" 
+          icon: mdi-domain
+          status: OK                      
+        - id: ct
+          name: "Nom du chef des travaux : Patrick MARTIN" 
+          icon: mdi-account
+          status: OK
+        - id: secteur_activite
+          name: "Qualification : BTP" 
+          icon: mdi-account
+          status: OK
+        - id: num_chantier
+          name: "Numéro du chantier : 1058421421422" 
+          icon: mdi-numeric
+          status: OK
+        - id: lieu_chantier
+          name: "Lieu intervention : CNPE de Nogent " 
+          icon: mdi-domain
+          status: OK
+        - id: periode_inter
+          name: "Période : du 14/09/2022 au 31/12/2022 " 
+          icon: mdi-update
+          status: OK
+        - id: date        
+          name: "date le 05/08/2022" 
+          icon: mdi-update
+          status: OK
+          children:
+          - id: dos_ent
+            name: "Dossier entreprise" 
+            icon: mdi-account
+            status: OK          
+
+
+
+
+
+
+
+
+
+
+
+
+      children:
+      - id: societe 2
+        name: "Nom Société : VINCI" 
+        icon: mdi-account
+        status: OK
+        children:
+        - id: adresse
+          name: "Adresse : 15 boul Danton 75005 Paris" 
+          icon: mdi-domain
+          status: OK
+        - id: siret
+          name: "Siret: 963852741" 
+          icon: mdi-numeric
+          status: OK
+        - id: responsable_societe
+          name: "Chef d'entreprise: JL" 
+          icon: mdi-domain
+          status: OK                      
+        - id: ct
+          name: "Nom du chef des travaux : Marc" 
+          icon: mdi-account
+          status: OK
+        - id: secteur_activite
+          name: "Qualification : BTP" 
+          icon: mdi-account
+          status: OK
+        - id: num_chantier
+          name: "Numéro du chantier : 1058421421422" 
+          icon: mdi-numeric
+          status: OK
+        - id: lieu_chantier
+          name: "Lieu intervention : CNPE de Nogent " 
+          icon: mdi-domain
+          status: OK
+        - id: periode_inter
+          name: "Période : du 14/09/2022 au 31/12/2022 " 
+          icon: mdi-update
+          status: OK
+        - id: date        
+          name: "date le 05/08/2022" 
+          icon: mdi-update
+          status: OK                     
+          
