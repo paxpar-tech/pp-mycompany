@@ -2,6 +2,15 @@
 
 Hello
 
+::card-grid
+#title
+Accès rapide
+#default
+  :button-link[Vérifiez votre dossier]{icon="IconStackBlitz" href="/check" blank}
+  :button-link[Générez votre dossier]{icon="IconStackBlitz" href="/craft?id=common.custom.secure.mes_valise_secure.base.craftform" blank}
+  :button-link[Générez d'autres documents]{icon="IconStackBlitz" href="/gallery/craftform" blank}
+::
+
 
 test accès [/data/check/ffx_total_131_ko.json](/data/check/ffx_total_131_ko.json)
 
