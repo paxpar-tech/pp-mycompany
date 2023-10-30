@@ -183,7 +183,7 @@ pdfs:
     conversation:
         - valerie: ""
   - url: "/data/pdf/val_mis_eu.pdf"
-    check_result: "/data/check/_cl_val_mis_eu.yaml"
+    check_result: "/data/check/_cl_val_mis_euc.yaml"
     name: "val_mis_eu"
     conversation:
 
