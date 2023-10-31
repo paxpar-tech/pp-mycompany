@@ -51,7 +51,35 @@ steps:
           name: "Siret: 233444555" 
           icon: mdi-numeric
           status: OK
-      - id: dos_ent_alc
+        - id: responsable_societe
+          name: "Chef d'entreprise: Isabelle LEPAGE" 
+          icon: mdi-account
+          status: OK                      
+        - id: ct
+          name: "Nom du chef des travaux : Patrick MARTIN" 
+          icon: mdi-account
+          status: OK
+        - id: secteur_activite
+          name: "Qualification : BTP" 
+          icon: mdi-quality-high
+          status: OK
+        - id: num_chantier
+          name: "Numéro du chantier : 1058421421422" 
+          icon: mdi-numeric
+          status: OK
+        - id: lieu_chantier
+          name: "Lieu intervention : CNPE de Nogent " 
+          icon: mdi-compass
+          status: OK
+        - id: periode_inter
+          name: "Période : du 14/09/2022 au 31/12/2022 " 
+          icon: mdi-update
+          status: OK
+        - id: date        
+          name: "date le 05/08/2022" 
+          icon: mdi-update
+          status: OK          
+      - id: dos_ent
         name: Dossier entreprise Alcove
         icon: mdi-folder
         status: OK
@@ -110,7 +138,7 @@ steps:
                     status: OK
                     children: 
                       - id: signature
-                        name: Signature 1/3 Signature de Paul 
+                        name: Signature 1/3 Signature de Paul PIGNON
                         icon: mdi:account-box
                         status: OK
                         children:
@@ -175,7 +203,7 @@ steps:
                               desc: null
                               icon: mdi:certificate
                               status: OK
-                  - id: attes
+                  - id: signature
                     name: 1 fichier attes_habi_paul_nacelle.pdf
                     icon: mdi:file-pdf-box
                   - id: signature
@@ -184,7 +212,7 @@ steps:
                     status: OK
                     children: 
                       - id: signature
-                        name: Signature 1/3 Signature de Paul 
+                        name: Signature 1/3 Signature de Paul PIGNON
                         icon: mdi:account-box
                         status: OK
                         children:
@@ -259,7 +287,7 @@ steps:
                     status: OK
                     children: 
                       - id: signature
-                        name: Signature 1/3 Signature de Paul
+                        name: Signature 1/3 Signature de Paul PIGNON
                         icon: mdi:account-box
                         status: OK
                         children:
@@ -334,7 +362,7 @@ steps:
                     status: OK
                     children: 
                       - id: signature
-                        name: Signature 1/3 Signature de Paul 
+                        name: Signature 1/3 Signature de Paul PIGNON
                         icon: mdi:account-box
                         status: OK
                         children:
@@ -405,7 +433,7 @@ steps:
                 status: OK
                 children: 
                   - id: signature
-                    name: Signature 1/2 Signature de Paul 
+                    name: Signature 1/2 Signature de Paul PIGNON
                     icon: mdi:account-box
                     status: OK
                     children:
@@ -470,23 +498,356 @@ steps:
                 name: 4 pièces jointes
                 icon: mdi-attachment
                 status: OK
-                children:
+                children: 
                   - id: attes
                     name: 1 fichier attes_habi_alain_cariste.pdf
                     icon: mdi:file-pdf-box
                     status: OK
+                  - id: signature
+                    name: 3 signataires
+                    icon: mdi:file-pdf-box
+                    status: OK
+                    children: 
+                      - id: signature
+                        name: Signature 1/3 Signature de Alain 
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 2/3 Signature de Patrick AUTRAN
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 3/3 Signature de Thierry CLAMART
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
                   - id: attes
                     name: 1 fichier attes_habi_alain_nacelle.pdf
                     icon: mdi:file-pdf-box
                     status: OK
+                  - id: signature
+                    name: 3 signataires
+                    icon: mdi:file-pdf-box
+                    status: OK
+                    children: 
+                      - id: signature
+                        name: Signature 1/3 Signature de Alain 
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 2/3 Signature de Patrick AUTRAN
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 3/3 Signature de Thierry CLAMART
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
                   - id: attes
                     name: 1 fichier attes_habi_alain_electrique.pdf
                     icon: mdi:file-pdf-box
                     status: OK
+                  - id: signature
+                    name: 3 signataires
+                    icon: mdi:file-pdf-box
+                    status: OK
+                    children: 
+                      - id: signature
+                        name: Signature 1/3 Signature de Alain 
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 2/3 Signature de Patrick DUPONT
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 3/3 Signature de Thierry PONY
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
                   - id: attes
                     name: 1 fichier attes_habi_alain_scn2.pdf
                     icon: mdi:file-pdf-box
                     status: OK
+                  - id: signature
+                    name: 3 signataires
+                    icon: mdi:file-pdf-box
+                    status: OK
+                    children: 
+                      - id: signature
+                        name: Signature 1/3 Signature de Alain 
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 2/3 Signature de Patrick DUPONT
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+                      - id: signature
+                        name: Signature 3/3 Signature de Thierry PONY
+                        icon: mdi:account-box
+                        status: OK
+                        children:
+                        - id: sous-step
+                          name: Certificat 1/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                          children:
+                          - id: sous-step
+                            name: Certificat 2/3 valide
+                            desc: null
+                            icon: mdi:certificate
+                            status: OK
+                            children:            
+                            - id: sous-step
+                              name: Certificat 3/3 valide
+                              desc: null
+                              icon: mdi:certificate
+                              status: OK
+              - id: signature
+                name: 2 signataires
+                icon: mdi:file-pdf-box
+                status: OK
+                children: 
+                  - id: signature
+                    name: Signature 1/2 Signature de Alain 
+                    icon: mdi:account-box
+                    status: OK
+                    children:
+                    - id: sous-step
+                      name: Certificat 1/3 valide
+                      desc: null
+                      icon: mdi:certificate
+                      status: OK
+                      children:
+                      - id: sous-step
+                        name: Certificat 2/3 valide
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        children:            
+                        - id: sous-step
+                          name: Certificat 3/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK
+                  - id: signature
+                    name: Signature 2/2 Signature de Isabelle LEPAGE
+                    icon: mdi:account-box
+                    status: OK
+                    children:
+                    - id: sous-step
+                      name: Certificat 1/3 valide
+                      desc: null
+                      icon: mdi:certificate
+                      status: OK
+                      children:
+                      - id: sous-step
+                        name: Certificat 2/3 valide
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        children:            
+                        - id: sous-step
+                          name: Certificat 3/3 valide
+                          desc: null
+                          icon: mdi:certificate
+                          status: OK              
       - id: val_eddup
         name: Valise EE Edouard 
         icon: mdi-briefcase
@@ -495,7 +856,43 @@ steps:
         - id: soc_eddup
           name: "Nom Société : EdDup" 
           icon: mdi-home
-          status: OK
+          children:
+          - id: adresse
+            name: "Adresse : 35 rue de l'industrie 89100 Sens" 
+            icon: mdi-home-circle
+            status: OK
+          - id: siret
+            name: "Siret: 999999999" 
+            icon: mdi-numeric
+            status: OK
+          - id: responsable_societe
+            name: "Chef d'entreprise: Edouard Dupont" 
+            icon: mdi-account
+            status: OK                      
+          - id: ct
+            name: "Nom du chef des travaux : Edouard Dupont" 
+            icon: mdi-account
+            status: OK
+          - id: secteur_activite
+            name: "Qualification : Electricité" 
+            icon: mdi-quality-high
+            status: OK
+          - id: num_chantier
+            name: "Numéro du chantier : 1058421421422" 
+            icon: mdi-numeric
+            status: OK
+          - id: lieu_chantier
+            name: "Lieu intervention : CNPE de Nogent " 
+            icon: mdi-compass
+            status: OK
+          - id: periode_inter
+            name: "Période : du 14/09/2022 au 31/12/2022 " 
+            icon: mdi-update
+            status: OK
+          - id: date
+            name: "date le 05/08/2022" 
+            icon: mdi-update
+            status: OK                     
       - id: dos_ent
         name: Dossier entreprise EdDup
         icon: mdi-folder
@@ -539,187 +936,62 @@ steps:
               name: Carnet Edouard
               icon: mdi:file-pdf-box
               status: OK
-              children:
-              - id: attes
-                name: 1 fichier attes_habi_edouard_soudeur.pdf
-                icon: mdi:file-pdf-box
+              children:          
+              - id: piece
+                name: 3 pièces jointes
+                icon: mdi-attachment
                 status: OK
-              - id: attes
-                name: 1 fichier attes_habi_edouard_electrique.pdf
-                icon: mdi:file-pdf-box
-                status: OK
-              - id: attes
-                name: 1 fichier attes_habi_alain_scn2.pdf
-                icon: mdi:file-pdf-box
-                status: OK
-    - id: val_ee_vinci
-      name: "Valise EE Vinci" 
-      icon: mdi-briefcase
-      status: OK
+                children:
+
+
+
+
+
+
+
+
+
+
       children:
-      - id: soc_vin
+      - id: societe 2
         name: "Nom Société : VINCI" 
-        icon: mdi-home
+        icon: mdi-account
         status: OK
         children:
         - id: adresse
           name: "Adresse : 15 boul Danton 75005 Paris" 
           icon: mdi-domain
           status: OK
-          children: 
-          - id: dos_ent_vin
-            name: Dossier entreprise Vinci
-            icon: mdi-folder
-            status: OK
-            children:
-            - id: mod_op
-              name: Mode opératoire
-              icon: mdi-standard-definition
-              status: OK
-            - id: ass
-              name: Attestation assurance
-              icon: mdi-file-document
-              status: OK
-            - id: urss
-              name: Attestation Urssaf
-              icon: mdi-file-document
-              status: OK
-            - id: Kbis
-              name: Kbis
-              icon: mdi-file-document
-              status: OK
-            - id: pass
-              name: Passeport(s) 2
-              icon: mdi-passport
-              status: OK
-              children:
-              - id: pass_gerard
-                name: Passeport Gérard
-                icon: mdi-passport
-                status: OK
-                children:
-                - id: poste
-                  name: Fiche de poste
-                  icon: mdi-file-document
-                  status: OK
-                - id: apti
-                  name: Fiche d'aptitude
-                  icon: mdi-file-document
-                  status: OK
-                - id: carnet
-                  name: Carnet Gérard
-                  icon: mdi:file-pdf-box
-                  status: OK
-                  children:          
-                  - id: piece
-                    name: 3 pièces jointes
-                    icon: mdi-attachment
-                    status: OK
-                    children:
-                    - id: attes
-                      name: 1 fichier attes_habi_gerard_soudeur.pdf
-                      icon: mdi:file-pdf-box
-                      status: OK
-                    - id: attes
-                      name: 1 fichier attes_habi_gerard_electrique.pdf
-                      icon: mdi:file-pdf-box
-                      status: OK
-                    - id: attes
-                      name: 1 fichier attes_habi_gerard_scn2.pdf
-                      icon: mdi:file-pdf-box
-                      status: OK
-              - id: pass_nadege
-                name: Passeport Nadège
-                icon: mdi-passport
-                status: OK
-                children:
-                - id: poste
-                  name: Fiche de poste
-                  icon: mdi-file-document
-                  status: OK
-                - id: apti
-                  name: Fiche d'aptitude
-                  icon: mdi-file-document
-                  status: OK
-                - id: carnet
-                  name: Carnet Nadège
-                  icon: mdi:file-pdf-box
-                  status: OK
-                  children:          
-                  - id: piece
-                    name: 2 pièces jointes
-                    icon: mdi-attachment
-                    status: OK
-                    children:
-                    - id: attes
-                      name: 1 fichier attes_habi_cariste_nadege.pdf
-                      icon: mdi:file-pdf-box
-                      status: OK
-                    - id: attes
-                      name: 1 fichier attes_habi_nadege_scn2.pdf
-                      icon: mdi:file-pdf-box
-                      status: OK                                                                                            
-          - id: val_ee_daney
-            name: Valise EE Daney
-            icon: mdi-briefcase
-            status: OK
-            children:
-            - id: soc_dan
-              name: "Nom Société : Daney" 
-              icon: mdi-home
-              children:
-              - id: adresse
-                name: "Adresse : 30 rue du 8 mai 10000 Troyes" 
-                icon: mdi-home-circle
-                status: OK
-              - id: dos_ent_dan
-                name: Dossier entreprise Daney
-                icon: mdi-folder
-                status: OK
-                children:
-                - id: mod_op
-                  name: Mode opératoire
-                  icon: mdi-standard-definition
-                  status: OK
-                - id: ass
-                  name: Attestation assurance
-                  icon: mdi-file-document
-                  status: OK
-                - id: urss
-                  name: Attestation Urssaf
-                  icon: mdi-file-document
-                  status: OK
-                - id: Kbis
-                  name: Kbis
-                  icon: mdi-file-document
-                  status: OK
-                - id: pass
-                  name: Passeport(s) 1
-                  icon: mdi-passport
-                  status: OK
-                  children:
-                  - id: pass_sophie
-                    name: Passeport Sophie
-                    icon: mdi-passport
-                    status: OK
-                    children:
-                    - id: poste
-                      name: Fiche de poste
-                      icon: mdi-file-document
-                      status: OK
-                    - id: apti
-                      name: Fiche d'aptitude
-                      icon: mdi-file-document
-                      status: OK
-                    - id: carnet
-                      name: Carnet Sophie
-                      icon: mdi:file-pdf-box
-                      status: OK
-                      children:          
-                      - id: piece
-                        name: 5 pièces jointes
-                        icon: mdi-attachment
-                        status: OK                                                      
-mettre les attestations de sophie
-
-
+        - id: siret
+          name: "Siret: 963852741" 
+          icon: mdi-numeric
+          status: OK
+        - id: responsable_societe
+          name: "Chef d'entreprise: JL" 
+          icon: mdi-domain
+          status: OK                      
+        - id: ct
+          name: "Nom du chef des travaux : Marc" 
+          icon: mdi-account
+          status: OK
+        - id: secteur_activite
+          name: "Qualification : BTP" 
+          icon: mdi-account
+          status: OK
+        - id: num_chantier
+          name: "Numéro du chantier : 1058421421422" 
+          icon: mdi-numeric
+          status: OK
+        - id: lieu_chantier
+          name: "Lieu intervention : CNPE de Nogent " 
+          icon: mdi-domain
+          status: OK
+        - id: periode_inter
+          name: "Période : du 14/09/2022 au 31/12/2022 " 
+          icon: mdi-update
+          status: OK
+        - id: date        
+          name: "date le 05/08/2022" 
+          icon: mdi-update
+          status: OK                     
+          
