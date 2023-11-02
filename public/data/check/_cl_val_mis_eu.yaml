@@ -656,7 +656,7 @@ steps:
                       icon: mdi:file-pdf-box
                       status: OK
                     - id: attes
-                      name: 1 fichier attes_habi_nadege_scn2.pdf
+                      name: 1 fichier attes_habi_scn2_nadege.pdf
                       icon: mdi:file-pdf-box
                       status: OK                                                                                            
           - id: val_ee_daney
@@ -667,6 +667,7 @@ steps:
             - id: soc_dan
               name: "Nom Société : Daney" 
               icon: mdi-home
+              status: OK
               children:
               - id: adresse
                 name: "Adresse : 30 rue du 8 mai 10000 Troyes" 
@@ -719,7 +720,142 @@ steps:
                       - id: piece
                         name: 5 pièces jointes
                         icon: mdi-attachment
-                        status: OK                                                      
-mettre les attestations de sophie
+                        status: OK
+                        children:
+                        - id: attes
+                          name: 1 fichier attes_habi_sophie_electrique.pdf
+                          icon: mdi:file-pdf-box
+                          status: OK
+                        - id: attes
+                          name: 1 fichier attes_habi_sophie_scn2.pdf
+                          icon: mdi:file-pdf-box
+                          status: OK
+                        - id: attes
+                          name: 1 fichier attes_habi_sophie_cariste.pdf
+                          icon: mdi:file-pdf-box
+                          status: OK
+                        - id: attes
+                          name: 1 fichier attes_habi_sophie_soudeur.pdf
+                          icon: mdi:file-pdf-box
+                          status: OK
+                        - id: attes
+                          name: 1 fichier attes_habi_sophie_fimo.pdf
+                          icon: mdi:file-pdf-box
+                          status: OK                                                                                                                                                                                      
+              - id: val_ee_buri
+                name: Valise EE Buripanera
+                icon: mdi-briefcase
+                status: OK
+                children:
+                - id: soc_buri
+                  name: "Nom Société : Buripanera" 
+                  icon: mdi-home
+                  children:
+                  - id: adresse
+                    name: "Adresse : 403 ruas 02 4500 ESPINHO" 
+                    icon: mdi-home-circle
+                    status: OK
+                  - id: dos_en_buri
+                    name: Dossier entreprise BURIPANERA
+                    icon: mdi-folder
+                    status: OK
+                    children:
+                    - id: mod_op
+                      name: Mode opératoire
+                      icon: mdi-standard-definition
+                      status: OK
+                    - id: ass
+                      name: Attestation assurance
+                      icon: mdi-file-document
+                      status: OK
+                    - id: urss
+                      name: Attestation Urssaf
+                      icon: mdi-file-document
+                      status: OK
+                    - id: Kbis
+                      name: Kbis
+                      icon: mdi-file-document
+                      status: OK
+                    - id: pass
+                      name: Passeport(s) 2
+                      icon: mdi-passport
+                      status: OK
+                      children:
+                      - id: pas_adrien
+                        name: Passeport Adrien
+                        icon: mdi-passport
+                        status: OK
+                        children:
+                        - id: poste
+                          name: Fiche de poste
+                          icon: mdi-file-document
+                          status: OK
+                        - id: apti
+                          name: Fiche d'aptitude
+                          icon: mdi-file-document
+                          status: OK
+                        - id: carnet
+                          name: Carnet Adrien
+                          icon: mdi:file-pdf-box
+                          status: OK
+                          children:          
+                          - id: piece
+                            name: 3 pièces jointes
+                            icon: mdi-attachment
+                            status: OK
+                            children:
+                            - id: attes
+                              name: 1 fichier attes_habi_cariste_adrien.pdf
+                              icon: mdi:file-pdf-box
+                              status: OK
+                            - id: attes
+                              name: 1 fichier attes_habi_soudeur_adrien.pdf
+                              icon: mdi:file-pdf-box
+                              status: OK
+                            - id: attes
+                              name: 1 fichier attes_habi_scn2_adrien.pdf
+                              icon: mdi:file-pdf-box
+                              status: OK
+                      - id: pas_peggy
+                        name: Passeport Peggy
+                        icon: mdi-passport
+                        status: OK
+                        children:
+                        - id: poste
+                          name: Fiche de poste
+                          icon: mdi-file-document
+                          status: OK
+                        - id: apti
+                          name: Fiche d'aptitude
+                          icon: mdi-file-document
+                          status: OK
+                        - id: carnet
+                          name: Carnet Peggy
+                          icon: mdi:file-pdf-box
+                          status: OK
+                          children:          
+                          - id: piece
+                            name: 3 pièces jointes
+                            icon: mdi-attachment
+                            status: OK
+                            children:
+                            - id: attes
+                              name: 1 fichier attes_habi_electrique_peggy.pdf
+                              icon: mdi:file-pdf-box
+                              status: OK
+                            - id: attes
+                              name: 1 fichier attes_habi_nacelle_peggy.pdf
+                              icon: mdi:file-pdf-box
+                              status: OK
+                            - id: attes
+                              name: 1 fichier attes_habi_scn2_peggy.pdf
+                              icon: mdi:file-pdf-box
+                              status: OK                                                                                                             
+
+
+
+
+
+
 
 
