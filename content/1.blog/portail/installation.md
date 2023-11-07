@@ -1,5 +1,5 @@
 # Vos dernières étapes
-Cher(e) Monsieur ou Madame XXX DDDD,
+Bienvenue Monsieur ou Madame XXX DDDD,
 
 Nous tenons à vous exprimer notre gratitude pour avoir pris le temps de remplir notre questionnaire.
 
