@@ -1,4 +1,4 @@
-#  3 modes d'installation possibles
+# 3 modes d'installation possibles
 
 Mode Automatique
 
