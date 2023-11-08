@@ -1,0 +1,1 @@
+import{_ as o}from"./documents.vue.2a6a3b6a.js";import{k as e,J as n,b as t}from"./entry.9a39bf12.js";const s={};function _(r,a){const c=o;return t(),n(c)}const p=e(s,[["render",_]]);export{p as default};
