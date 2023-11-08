@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "clear": "rm -Rf node_modules && rm -Rf .nuxt && rm -Rf .output",
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
+    "dev": "npx nuxi dev",
+    "build": "npx nuxi build",
+    "generate": "npx bun run clear && npx bun install && npx nuxi prepare && npx nuxi generate",
+    "preview": "npx nuxi preview",
     "upgrade": "npx npm-check-updates -i -p bun",
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@arundo-tech/paxpar-widgets": "^2.7.40",
+    "@arundo-tech/paxpar-widgets": "^2.7.44",
     "@headlessui/vue": "^1.7.16",
     "@nuxt-themes/docus": "latest",
     "@nuxt/devtools": "^1.0.0",
