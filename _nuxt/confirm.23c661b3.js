@@ -1,0 +1,1 @@
+import a from"./ModalFull.0ff25cf5.js";import{d as o,N as n,O as s,b as r,J as _,w as c,e as i,P as u}from"./entry.e5ec0771.js";const l=i("div",null,"Waiting for login...",-1),w=o({__name:"confirm",setup(m){const e=n();return s(e,()=>{if(e.value)return u("/")},{immediate:!0}),(p,f)=>{const t=a;return r(),_(t,null,{default:c(()=>[l]),_:1})}}});export{w as default};
