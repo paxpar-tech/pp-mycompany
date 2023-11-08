@@ -1,0 +1,1 @@
+const s={},h={},l={theme:{dark:"github-dark",default:"github-light"},preload:["python","shell","sql","json","js","ts","html","css","vue","diff","shell","markdown","yaml","bash","ini"]};export{l as highlight,h as rehypePlugins,s as remarkPlugins};
